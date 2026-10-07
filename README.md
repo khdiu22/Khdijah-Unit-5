@@ -32,8 +32,7 @@ Khdijah-Unit-5/
 ├── README.md
 ├── evidence/
 │   ├── erd.pdf
-│   ├── erd.png
-│   └── (screenshots of the shell results used in this README)
+│   ├─(screenshots of the shell results used in this README)
 └── stockroom_project/
     ├── manage.py
     ├── stockroom_project/
@@ -53,8 +52,6 @@ Khdijah-Unit-5/
 ## 3. ERD
 
 See [evidence/erd.pdf](evidence/erd.pdf).
-
-![ERD](evidence/erd.png)
 
 It shows primary keys, foreign keys, cardinality and optionality. `1` = exactly one (required), `0..N` = zero or many (optional). Category to Product, Customer to Order, Order to OrderItem and Product to OrderItem are one-to-many. Order to Product is many-to-many through OrderItem.
 
